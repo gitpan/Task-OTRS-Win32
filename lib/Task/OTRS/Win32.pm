@@ -15,7 +15,7 @@ Task::OTRS::Win32 - Almost all of the modules required for installing OTRS Help 
 
 =head1 VERSION
 
-version 1.01
+version 1.02
 
 =head1 SYNOPSIS
 

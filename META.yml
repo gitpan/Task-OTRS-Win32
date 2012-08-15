@@ -17,10 +17,11 @@ requires:
   Log::Dispatch: 0
   Log::Dispatch::FileRotate: 0
   Log::Log4perl: 0
-  Task::OTRS: v1.0.2
+  Task::OTRS: 1.02
   Win32: 0
   Win32::Daemon: 0
   Win32::Service: 0
 resources:
+  bugtracker: https://github.com/mwb/Task-OTRS-Win32/issues
   repository: git://github.com/mwb/Task-OTRS-Win32.git
-version: 1.01
+version: 1.02
