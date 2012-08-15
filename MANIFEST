@@ -1,0 +1,11 @@
+Changes
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+dist.ini
+dist.ini~
+lib/Task/OTRS/Win32.pm
+lib/Task/OTRS/Win32.pm~
+t/00-compile.t
