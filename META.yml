@@ -23,5 +23,6 @@ requires:
   Win32::Service: 0
 resources:
   bugtracker: https://github.com/mwb/Task-OTRS-Win32/issues
-  repository: git://github.com/mwb/Task-OTRS-Win32.git
-version: 1.02
+  homepage: https://github.com/mwb/Task-OTRS-Win32
+  repository: https://github.com/mwb/Task-OTRS-Win32.git
+version: 1.03
