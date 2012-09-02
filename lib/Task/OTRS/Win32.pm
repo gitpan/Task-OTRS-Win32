@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Task::OTRS::Win32;
 
-our $VERSION = '1.03';
+our $VERSION = '1.04';
 # ABSTRACT: Almost all of the modules required for installing OTRS Help Desk on win32.
 
 
@@ -18,7 +18,7 @@ Task::OTRS::Win32 - Almost all of the modules required for installing OTRS Help 
 
 =head1 VERSION
 
-version 1.03
+version 1.04
 
 =head1 SYNOPSIS
 
@@ -75,6 +75,8 @@ your system, we will not install it again.
 =item * Log::Dispatch::FileRotate
 
 =item * Log::Log4perl
+
+=item * Sys::Syslog (logs to Event Log on Windows)
 
 =item * Win32
 

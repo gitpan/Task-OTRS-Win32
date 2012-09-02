@@ -25,6 +25,7 @@
             "Log::Dispatch" : "0",
             "Log::Dispatch::FileRotate" : "0",
             "Log::Log4perl" : "0",
+            "Sys::Syslog" : "0",
             "Task::OTRS" : "1.02",
             "Win32" : "0",
             "Win32::Daemon" : "0",
@@ -44,6 +45,6 @@
          "web" : "https://github.com/mwb/Task-OTRS-Win32"
       }
    },
-   "version" : "1.03"
+   "version" : "1.04"
 }
 

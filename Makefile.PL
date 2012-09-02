@@ -24,12 +24,13 @@ my %WriteMakefileArgs = (
     "Log::Dispatch" => 0,
     "Log::Dispatch::FileRotate" => 0,
     "Log::Log4perl" => 0,
+    "Sys::Syslog" => 0,
     "Task::OTRS" => "1.02",
     "Win32" => 0,
     "Win32::Daemon" => 0,
     "Win32::Service" => 0
   },
-  "VERSION" => "1.03",
+  "VERSION" => "1.04",
   "test" => {
     "TESTS" => "t/*.t"
   }
