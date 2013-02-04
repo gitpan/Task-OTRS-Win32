@@ -1,10 +1,10 @@
 {
-   "abstract" : "Almost all of the modules required for installing OTRS Help Desk on win32.",
+   "abstract" : "Almost all of the modules required for installing OTRS Help Desk on win32.\r",
    "author" : [
       "Michiel Beijen <michiel.beijen@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300021, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "agpl_3"
    ],
@@ -25,26 +25,15 @@
             "Log::Dispatch" : "0",
             "Log::Dispatch::FileRotate" : "0",
             "Log::Log4perl" : "0",
-            "Sys::Syslog" : "0",
-            "Task::OTRS" : "1.02",
+            "Task::OTRS" : "1.04",
             "Win32" : "0",
+            "Win32::Console::ANSI" : "0",
             "Win32::Daemon" : "0",
             "Win32::Service" : "0"
          }
       }
    },
    "release_status" : "stable",
-   "resources" : {
-      "bugtracker" : {
-         "web" : "https://github.com/mwb/Task-OTRS-Win32/issues"
-      },
-      "homepage" : "https://github.com/mwb/Task-OTRS-Win32",
-      "repository" : {
-         "type" : "git",
-         "url" : "https://github.com/mwb/Task-OTRS-Win32.git",
-         "web" : "https://github.com/mwb/Task-OTRS-Win32"
-      }
-   },
-   "version" : "1.04"
+   "version" : "1.05"
 }
 

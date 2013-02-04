@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Almost all of the modules required for installing OTRS Help Desk on win32.",
+  "ABSTRACT" => "Almost all of the modules required for installing OTRS Help Desk on win32.\r",
   "AUTHOR" => "Michiel Beijen <michiel.beijen\@gmail.com>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -24,13 +24,13 @@ my %WriteMakefileArgs = (
     "Log::Dispatch" => 0,
     "Log::Dispatch::FileRotate" => 0,
     "Log::Log4perl" => 0,
-    "Sys::Syslog" => 0,
-    "Task::OTRS" => "1.02",
+    "Task::OTRS" => "1.04",
     "Win32" => 0,
+    "Win32::Console::ANSI" => 0,
     "Win32::Daemon" => 0,
     "Win32::Service" => 0
   },
-  "VERSION" => "1.04",
+  "VERSION" => "1.05",
   "test" => {
     "TESTS" => "t/*.t"
   }

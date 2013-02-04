@@ -1,8 +1,6 @@
 use strict;
 use warnings;
 package Task::OTRS::Win32;
-
-our $VERSION = '1.04';
 # ABSTRACT: Almost all of the modules required for installing OTRS Help Desk on win32.
 
 
@@ -18,7 +16,7 @@ Task::OTRS::Win32 - Almost all of the modules required for installing OTRS Help 
 
 =head1 VERSION
 
-version 1.04
+version 1.05
 
 =head1 SYNOPSIS
 
@@ -76,9 +74,9 @@ your system, we will not install it again.
 
 =item * Log::Log4perl
 
-=item * Sys::Syslog (logs to Event Log on Windows)
-
 =item * Win32
+
+=item * Win32::Console::ANSI
 
 =item * Win32::Daemon
 
@@ -94,8 +92,8 @@ and sending, you might not be needing Net::POP3 and Net::SMTP. Also, in case you
 care about generating PDF files with OTRS, you don't need PDF::API2. That said, installing
 Task::OTRS::Win32 can help in setting up OTRS more quickly.
 
-This module will install all modules for the current version of OTRS, 3.1.x. It could be possible 
-that for 3.2.x the requirements change. It would be feasible that by then I'll release specific
+This module will install all modules for the current version of OTRS, 3.2.x. It could be possible 
+that for other versions the requirements change. It would be feasible that by then I'll release specific
 Task:: modules for specific OTRS versions.
 
 =head1 AUTHOR
