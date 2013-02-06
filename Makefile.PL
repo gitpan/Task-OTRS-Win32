@@ -30,7 +30,7 @@ my %WriteMakefileArgs = (
     "Win32::Daemon" => 0,
     "Win32::Service" => 0
   },
-  "VERSION" => "1.05",
+  "VERSION" => "1.0.5",
   "test" => {
     "TESTS" => "t/*.t"
   }
