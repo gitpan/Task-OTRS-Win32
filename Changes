@@ -1,4 +1,4 @@
-1.05      2013-02-04
+1.10      2013-02-10
 - Added Win32::Console::ANSI for ANSI colors in the console.
 
 1.04      2012-09-02

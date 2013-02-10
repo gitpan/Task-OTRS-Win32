@@ -25,4 +25,4 @@ requires:
 resources:
   bugtracker: https://github.com/mwb/Task-OTRS-Win32/issues
   repository: git://github.com/mwb/Task-OTRS-Win32.git
-version: 1.0.5
+version: 1.10
