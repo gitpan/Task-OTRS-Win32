@@ -4,7 +4,6 @@ MANIFEST
 META.json
 META.yml
 Makefile.PL
-README
 dist.ini
 lib/Task/OTRS/Win32.pm
 t/00-compile.t

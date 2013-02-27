@@ -1,5 +1,5 @@
 ---
-abstract: "Almost all of the modules required for installing OTRS Help Desk on win32.\r"
+abstract: 'Almost all of the modules required for installing OTRS Help Desk on win32.'
 author:
   - 'Michiel Beijen <michiel.beijen@gmail.com>'
 build_requires: {}
@@ -23,6 +23,5 @@ requires:
   Win32::Daemon: 0
   Win32::Service: 0
 resources:
-  bugtracker: https://github.com/mwb/Task-OTRS-Win32/issues
-  repository: git://github.com/mwb/Task-OTRS-Win32.git
-version: 1.10
+  repository: git://github.com/mbeijen/Task-OTRS-Win32.git
+version: 1.11
