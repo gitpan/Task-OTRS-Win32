@@ -17,6 +17,7 @@ requires:
   Log::Dispatch: 0
   Log::Dispatch::FileRotate: 0
   Log::Log4perl: 0
+  Module::Build: 0.39
   Task::OTRS: 1.04
   Win32: 0
   Win32::Console::ANSI: 0
@@ -24,4 +25,4 @@ requires:
   Win32::Service: 0
 resources:
   repository: git://github.com/mbeijen/Task-OTRS-Win32.git
-version: 1.11
+version: 1.12

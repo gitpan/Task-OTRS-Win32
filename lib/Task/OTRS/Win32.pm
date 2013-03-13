@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Task::OTRS::Win32;
 
-our $VERSION = '1.11';
+our $VERSION = '1.12';
 # ABSTRACT: Almost all of the modules required for installing OTRS Help Desk on win32.
 
 
@@ -18,7 +18,7 @@ Task::OTRS::Win32 - Almost all of the modules required for installing OTRS Help 
 
 =head1 VERSION
 
-version 1.11
+version 1.12
 
 =head1 SYNOPSIS
 
